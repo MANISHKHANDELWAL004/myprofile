@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Preahvihear&display=swap" 
+rel="stylesheet">
+<link rel="stylesheet" href="profile.css">
+    <title>My Profile</title>
+</head>
+
+<body class="randomBackground" id="randomBackground">
+
+    <main>
+    <h1>welcome to my profile</h1>
+    <div> 
+        <img  src="manny.jpg" alt="my profile pic" onclick="changeBackground()" class="image" style="display: inline-block; border: 2px purple solid; height: 100px; width: 100px; border-radius: 50%; zoom: 125%; object-fit: cover; padding-bottom: 0px; margin-bottom: 0px ;">      
+    </div>
+        <h2>manish khandelwal</h2>
+        <p>Front-end Web Developer</p>
+        <h3>About me</h3>
+        <p>hello, I am manish khandelwal! I am a passionate Front-end Web Devloper with a strong interest in creating attractive and user friendly websites.I love turning my ideas into beautiful and fully functional websites using new technologies.I love staying updated with the latest web trends and technologies.</p>
+        <h3>Contact Information</h3>
+        <p>
+            <span class="credentials">
+                <img src="/gmail.png" alt="" style="display: inline; height: 20px; width: 20px;">Email:-
+            </span>
+            thecj@example.com
+        </p>
+        <p>
+            <span class="credentials">
+                <img src="/download (3).png" alt="" style="display: inline; height: 20px; width: 20px; border-radius: 50%;">Contact:-
+            </span>
+            +91 7073251584
+        </p>
+        <p>
+            <span class="credentials">
+                My Website:-
+            </span> 
+            <a href="profile.html" target="_blank">
+                 <button>visit</button>
+            </a>
+        </p>
+        <h3>Skills</h3>
+        <ul>
+            <li><img src="/HTML.png" alt="HTML" class="logo"></li>
+            <li><img src="/download (3).png" alt="CSS" class="logo"></li>
+            <li><img src="/download (4).png" alt="JAVASCRIPT" class="logo"></li>
+            <li><img src="/images (1).png" alt="BOOTSTRAP" class="logo"></li>
+            <li><img src="/download (4).jpeg" alt="REACT" class="logo"></li>
+        </ul>
+    </main>
+<script>
+    function changeBackground() {
+		const red = Math.floor(Math.random() * 256);
+		const green = Math.floor(Math.random() * 256);
+		const blue = Math.floor(Math.random() * 256);
+  
+	  	document.body.style.background = "rgb(" + red + ", " + green + ", " + blue + ")";
+
+		}
+</script>
+        
+
+
+    
+    
+</body>
+</html>

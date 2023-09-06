@@ -1,0 +1,80 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Preahvihear' , 'Times New Roman', Times, serif;
+    
+}
+body{
+    background-color: navy;
+}
+main {
+    background: url('/abstract-mixed-pastel-colors-background-free-vector.jpg') ;
+    background-size: cover;
+    display: block;
+    border: 1rem violet;
+    border-style: groove;
+    border-radius: 80px;
+    margin:2rem 25rem 2rem 25rem ; 
+    padding: 5px;
+    text-align: center;
+  }
+
+  h2{
+    color: aquamarine;
+    border: 1px navy solid;
+    text-shadow: 3px 3px darkblue ;
+    text-align: center;
+    
+  }
+  h3{
+    color: lime;
+    text-shadow: 2px 2px darkgreen ;
+  }
+
+p{
+    color: whitesmoke;
+}
+h1{
+    color: aqua;
+    text-align: center;
+    text-decoration: solid;
+    text-shadow: 0 0 10px #FF0000, 0 0 15px #0000FF;
+}
+ul{
+    list-style: none;
+}
+.logo{
+    border: 2px solid mediumorchid;
+    /* padding: 20%; */
+    font-size: xx-small;
+    box-sizing: border-box;
+    border-radius: 20%;
+    height: 4rem;
+    width: 4rem;
+}
+#colorbutton{
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+    
+}
+#colorbutton:hover{
+    cursor: pointer;
+}
+/* #colorbutton{
+    border: 2px purple solid;
+    height: 100px;
+    width: 100px; 
+    border-radius: 50%; 
+    zoom: 125%; 
+    object-fit: cover; 
+    padding-bottom: 0px; 
+    margin-bottom: 0px;
+} */
+.image:hover{
+    cursor: pointer;
+}
+.credentials{
+    color: lavenderblush;
+    font-size: large;
+
+}
